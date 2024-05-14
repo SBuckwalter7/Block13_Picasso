@@ -41,11 +41,22 @@ height: 80%
 
 }
 
-@media (max-width:450px){
+@media (max-width:650px){
     .clouds{
         /*change clouds from row to column*/
         flex-direction: column;
     }
+
+        .tree1{
+            /*change trees from row to column*/
+            flex-direction: column;
+    }
+
+    .tree2{
+        /*change trees from row to column*/
+        flex-direction: column;
+}
+
 }
 
 .tree1{
