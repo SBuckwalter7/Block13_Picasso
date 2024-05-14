@@ -1,0 +1,95 @@
+*{
+    margin:0
+}
+
+.frame{
+    background-color: black;
+    height: 100vh
+
+}
+
+.sky{
+    display:flex;
+background-color: rgb(135, 194, 245);
+height: 80%
+}
+
+.grass{
+    background-color: rgb(150, 219, 150);
+    height: 20%
+}
+
+.clouds{
+    display:flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.cloud{
+    background-color: aliceblue;
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.sun{
+    background-color: rgb(237, 155, 62);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    order: -1
+
+}
+
+@media (max-width:450px){
+    .clouds{
+        /*change clouds from row to column*/
+        flex-direction: column;
+    }
+}
+
+.tree1{
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 300px solid rgb(24, 159, 46);
+        align-items: flex-end;
+      }
+
+      .tree2{
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 600px solid rgb(4, 97, 19);
+        align-items: flex-end;
+      }
+
+
+
+input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(147, 162, 195);
+    border-radius: 4px;
+  }
+
+  input[type=cell] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(147, 162, 195);
+    border-radius: 4px;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #7addb8;
+    border-color: blueviolet;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+  }
+
+
+  label {
+    color: #ffffff;
+    padding: 10px;
+    margin: 3px;}
